@@ -28,11 +28,16 @@ ul.nav a {
   text-align: center;
   display: block;
   float: left;
-  width: 33.3333%
+  width: 33.3333%;
+  background: url("../img/ornament.png") no-repeat 0 100%;
 }
 
 ol, ul {
   list-style: none;
+}
+
+.footer {
+  clear: both;
 }
 
 @media screen and (max-width: 600px) {
@@ -40,22 +45,67 @@ ol, ul {
     position: relative;
   }
 
+  .intro h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding: 10px;
+    font-weight: normal;
+  }
+
+  .inner p {
+    margin-left: 15px;
+    line-height: 1.4;
+  }
+
   ul.nav {
-    background: url("../img/ornament.png") no-repeat 0 -20px;
+    /*background: url("../img/ornament.png") no-repeat 0 -20px;*/
     border-top: none;
     margin: 0 auto;
     position: absolute;
     top: 0;
     width: 100%;
   }
-  
+
+  ul.nav a {
+    font: 10px Helvetica, Arial, sans-serif;
+    background-image: url("../img/ornament.png");
+  }
+
   i {
     font-style: normal;
   }
 
   #logo img {
-    padding-top: 50px;
     display: block;
     margin: auto;
+    padding-bottom: 15px;
+    padding-top: 60px;
+  }
+  .figure {
+    float: left;
+    display: block;
+    width: 47%;
+    margin-left: 10px;
+  }
+
+  .figcaption {
+    display: block;
+    text-align: center;
+  }
+
+  .figure b {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+  }
+
+  .figure img {
+    border-radius: 4px;
+    margin: 0 auto 1em;
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
