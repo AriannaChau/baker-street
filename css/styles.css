@@ -1,0 +1,61 @@
+.page {
+  background: url("../img/rag.png") repeat-x;
+  padding: 2em 0;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #E9E9E9;
+}
+
+ul.nav {
+  border-top: 1px solid #888583;
+  margin: 2em auto 0;
+  width: 64.379%;
+}
+
+ul.nav i {
+  display: block;
+}
+
+ul.nav a {
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 33.3333%
+}
+
+ol, ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  .inner {
+    position: relative;
+  }
+
+  ul.nav {
+    background: url("../img/ornament.png") no-repeat 0 -20px;
+    border-top: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  i {
+    font-style: normal;
+  }
+
+  #logo img {
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+  }
+}
